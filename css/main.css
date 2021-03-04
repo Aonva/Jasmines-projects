@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* font family's;
+	h1{font-family: 'Kalam', cursive;}
+	h2-h6 {font-family: 'Lato', sans-serif;}
+	p {font-family: 'Cormorant Garamond', serif;}
+*/
+
+/* color palet;
+	Colorful sunset over ocean on Maldives
+	dark blue - #566AA6
+	light blue - #4590BF
+	yellow - #F2B90F
+	orange - #F2913D
+	red orange - #F26A4B
+	body {background-color: #707070;}
+*/
+
+
+/* stylesteet */
+
+* {
+	margin:0px;
+	padding: 0px;
+}
+.centered_column_wrapper{ /* Centers a row of columns */
+	width: 1280px;
+	margin: 0px auto;
+}
+
+.banner{
+	padding: 20px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    text-align: center;
+    font: 700;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 15px;
+}
+
+.aboutMe{
+	box-sizing: border-box; 
+	float: left;
+	width: 100%; 
+	margin: 0px; 
+	padding: 85px;
+}
+
+.skills{
+	text-align: center;
+	box-sizing: border-box; 
+	float: left;
+	width: 100%; 
+	margin: 0px; 
+	padding: 10px;
+	column-rule-width: inherit;
+}
+
+.media{
+box-sizing: border-box;
+float: left;
+width: 33.3333%; 
+margin: 0px; 
+padding: 10px;
+}
+
+.column_3 {
+box-sizing: border-box;
+float: left;
+width: 33.3333%; 
+margin: 0px; 
+padding: 10px;
+}
+footer{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: #FFFFFF;
+}

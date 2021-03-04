@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS assinment 6 */
+.about_me {
+  color: #FFFFFF;
+  background-color: #4590BF;
+  margin-left: 131px;
+  margin-right: -326px;
+  -webkit-box-shadow: 0px 0px 0px;
+  box-shadow: 0px 0px 0px;
+}
+nav.navbar_navbar-exspand-lg {
+  text-color: black;
+  background-color: white;
+}
+.banner {
+  padding: 10px;
+  margin: 20px;
+  background-color: #566AA6;
+  font-weight: bold;
+  border-radius: 65%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: x-large;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/CAocian.jpg);
+  background-attachment: fixed;
+  width: 1280px;
+  clear: none;
+}
+h2 {
+  text-align: center;
+}
+/* Generic utility classes that can be called on any element. */
+.clear_float {
+  clear: both; /* Clears both left and right float */
+  color: #FFFFFF;
+}
+.center_text {
+  text-align: center;
+}
+.skills {
+  background-color: #4590BF;
+}
+.SolciaMedia {
+  background-color: #F26A4B;
+}
+img {
+  float: left;
+  margin-right: 20px;
+  border: thick solid #F2913D;
+  border-radius: 250px;
+}
+.column_1 {
+  box-sizing: border-box; /* So that padding/border is included in width */
+  float: left;
+  width: 100%; /* Fractional pixels don't really make sense, so this seems funky. */
+  margin: 0px; /* But 2 of these add up to approx 100%, so Web browsers render the columns correctly. */
+  padding: 10px;
+  image-orientation: center center;
+}
+/* Classes for the column wrappers and column blocks */
+.centered_column_wrapper { /* Centers a row of columns */
+  width: 1280px;
+  margin: 0 auto;
+}
+/* 2 column Classes for the column wrappers and column blocks */
+.column_2 {
+  box-sizing: border-box; /* So that padding/border is included in width */
+  float: left;
+  width: 50%; /* Fractional pixels don't really make sense, so this seems funky. */
+  margin: 0px; /* But 2 of these add up to approx 100%, so Web browsers render the columns correctly. */
+  padding: 10px;
+}
+/* 3 column Classes for the column wrappers and column blocks */
+.column_3 {
+  box-sizing: border-box; /* So that padding/border is included in width */
+  float: left;
+  width: 33.3333%; /* Fractional pixels don't really make sense, so this seems funky. */
+  margin: 0px; /* But 3 of these add up to approx 100%, so Web browsers render the columns correctly. */
+  padding: 10px;
+}
+/* 4 column Classes for the column wrappers and column blocks */
+.column_4 {
+  box-sizing: border-box; /* So that padding/border is included in width */
+  float: left;
+  width: 25%;
+  margin: 0px;
+  padding: 10px;
+}
+/* Classes for the display blocks inside the columns. */
+section.display_box_top {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #566AA6;
+  padding: 2px;
+}
+section.display_box_bottom {
+  background-color: #DDDDDD;
+  border: 2px solid #999999;
+  padding: 10px;
+}
+section.flying_saucer_banner {
+  padding: 10px;
+  margin: 20px;
+  background-color: #F2B90F;
+  font-weight: bold;
+  border-radius: 65%;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  height: 45px;
+}
