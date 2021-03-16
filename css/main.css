@@ -24,30 +24,42 @@
 	margin:0px;
 	padding: 0px;
 }
+
 .centered_column_wrapper{ /* Centers a row of columns */
 	width: 1280px;
 	margin: 0px auto;
+	background-color: #8850BF;
+	
 }
 
+body{
+	background-color: #392259;
+}
+
+nav{
+	background-color: #E0C4F2;
+}
 .banner{
 	padding: 20px;
 	float: left;
 	width: 100%;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: center center;
+    font: 700;
 }
+h1{color: white}
 
 h2, h3, h4, h5, h6{
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-    text-align: center;
-    font: 700;
     font-style: italic;
     color: #FFFFFF;
+    text-align: center;
 }
 
-p{
+p, ul{
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 15px;
+	color: white;
 }
 
 .aboutMe{
@@ -69,11 +81,20 @@ p{
 }
 
 .media{
-box-sizing: border-box;
-float: left;
-width: 33.3333%; 
-margin: 0px; 
-padding: 10px;
+	background-color: red;
+	text-align: center center;
+	width: 148px;
+	height: 50px;
+	border: thick double white;
+}
+
+.column_1 {
+  box-sizing: border-box; /* So that padding/border is included in width */
+  float: left;
+  width: 100%; /* Fractional pixels don't really make sense, so this seems funky. */
+  margin: 0px; /* But 2 of these add up to approx 100%, so Web browsers render the columns correctly. */
+  padding: 10px;
+	background-color: #8850BF;
 }
 
 .column_3 {
@@ -83,6 +104,7 @@ width: 33.3333%;
 margin: 0px; 
 padding: 10px;
 }
+
 footer{
     box-sizing: border-box;
     float: left;
@@ -90,6 +112,6 @@ footer{
     margin: 0px;
     padding: 10px;
     text-align: center;
-    background-color: black;
+    background-color: #392259;
     color: #FFFFFF;
 }
